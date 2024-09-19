@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Campos de Formulários</h1>
+
+
+    <form action="">
+        <label for="Nome">nome</label>
+        <input type="text" id="nome" placeholder="seu nome"> <br> 
+
+        <br> <br>
+        <label for="E-mai">E-mail</label>
+        <input type="email" id="e-mail" placeholder="seu e-mail" required> <br> <br>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="senha"> <br> <br>
+
+        <label for="confirmar senha">Confirmar Senha</label>
+        <input type="password" id="senha" placeholder="confirmar senha"> <br>
+
+
+        <br> <br>
+        <label for="idade">idade</label>
+        <input type="number" step="5" min="0" max="150" id="idade" placeholder="sua idade"> <br><br>
+
+        <label for="estado">Estado</label>
+        <select name="" id="Estado">
+        <option value="">Selecione</option>
+        <option value="ba">Bahia</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="sp">Sao Paulo</option>
+        <option value="pa">Paraiba</option>
+        <option value="pe">Pernanbuco</option>
+        <option value="sp">Alagoas</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="rs">Rio Grande do Sul</option>
+        <option value="sp">Santa Catarina</option>
+        <option value="es">Espirito Santos</option>
+        <option value="go">Goias</option>
+        <option value="am">Amazonas</option>
+        <option value="ap">Amapa</option>
+        <option value="ce">Ceara</option>
+        <option value="ma">Maranhao</option>
+        <option value="mt">Mato Grosso</option>
+        <option value="ms">Mato Grosso do Sul</option>
+        <option value="pr">Parana</option>
+        <option value="pi">Piaui</option>
+        <option value="rn">Rio Grande do Norte</option>
+        <option value="ro">Rondonia</option>
+        <option value="rr">Roraima</option>
+        <option value="to">Tocantins</option>
+    </select><br><br>
+
+    <label for="">Cadastro Ativo</label> <br>
+    <input type="radio" name="cadativo" value=""sim>sim 
+    <input type="radio" name="cadativo" value=""nao>nao <br><br>
+
+    <label for="">Hobbies:</label> <br>
+    <input type="checkbox" name="hobs []">Ouvir Musica <br>
+    <input type="checkbox" name="hobs []">Games <br>
+    <input type="checkbox" name="hobs []">Treinar <br>
+    <input type="checkbox" name="hobs []">Passear <br>
+
+    <label for="consideracoes">Consideracoes</label> <br><br>
+    <textarea name="consideracoes" id="consideracoes"></textarea>
+
+        <br><br>
+        <button>Enviar</button>
+
+    </form>
+
+</body>
+
+</html>

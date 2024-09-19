@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 992px;
+    /* border: 3px solid white; */
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* background-color: rgb(109, 162, 209); */
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header {
+    background-color: #202529;
+    height: 100px;
+    width: 100%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.section-flex {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+header nav {
+    width: 300px;
+    height: 100%;
+    /* border: 3px solid white; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    /* font-family: ; */
+    text-decoration: none;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+article {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* margin-top: 70px;
+    margin-left: 150px; */
+    border-radius: 30px;
+    gap: 30px;
+    height: calc(650px - 200px);
+    width: 80%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.pagina-de-login-bibliotec{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    color: white;
+    background-color: #202529;
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+    margin-left: 200px;
+    height: 40px;
+
+}
+
+.login{
+
+}
+input{
+    width: 50%;
+    height: 35px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 200px;
+}
+label{
+    margin-left: 200px;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+main a {
+    margin-left: 460px;
+    color: white;
+}
+nav a:hover{
+    color:#3691d8;
+}
+button:hover{ 
+    color: black;
+    background-color:#3691d8;
+}
