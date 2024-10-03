@@ -1,0 +1,25 @@
+CREATE DATABASE Bibliotec;
+
+USE Bibliotec;
+
+CREATE TABLE Usuario(
+UsuarioID INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+Nome VARCHAR(100),
+Nascimento DATE,
+Email VARCHAR(100),
+Senha VARCHAR(20),
+Contato CHAR(14),
+Admin BIT,
+Status BIT
+);
+
+CREATE TABLE Curso(
+CursoID INT  NOT NULL PRIMARY KEY IDENTITY(1,1),
+Nome VARCHAR(100),
+Periodo CHAR (1)
+);
+
+
+
+
+

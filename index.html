@@ -13,7 +13,7 @@
         <div class="layout-grid header-flex">
             <img src="./images/logo-desktop.svg" alt="Logo da marca da BiblioTec">
 
-            <nav class="menu">
+            <nav id="menu"  class="menu">
                 <a href="#">Quem somos</a>
                 <a href="#">Nosso acervo</a>
                 <a href="./login.html">Login</a>
@@ -166,8 +166,8 @@
 
     </footer>
     <script>
-        MostrarMenu(){
-            
+      function  MostrarMenu(){
+        document.getElementBuId ("menu").classList.toggle("mostra-menu")
         }
     </script>
 </body>
